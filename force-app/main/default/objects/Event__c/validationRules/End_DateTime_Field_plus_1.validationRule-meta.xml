@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_DateTime_Field_plus_1</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT( ISBLANK( End__c ) ),  End__c &lt;=  Start__c +(1) )</errorConditionFormula>
+    <errorDisplayField>End__c</errorDisplayField>
+    <errorMessage>End Date/Time must be at-least 1 day ahead of Start Date/Time</errorMessage>
+</ValidationRule>

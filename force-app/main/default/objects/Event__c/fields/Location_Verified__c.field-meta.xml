@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location_Verified__c</fullName>
+    <description>This a formula field in which we used a relation to set a value.</description>
+    <externalId>false</externalId>
+    <formula>Location_Address_Book__r.Verified__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This field obtains value from Location object.</inlineHelpText>
+    <label>Location Verified</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

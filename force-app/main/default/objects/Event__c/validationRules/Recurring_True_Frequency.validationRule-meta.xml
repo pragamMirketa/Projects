@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recurring_True_Frequency</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Recurring__c , ISPICKVAL( Frequency__c , &quot;&quot;) )</errorConditionFormula>
+    <errorDisplayField>Frequency__c</errorDisplayField>
+    <errorMessage>user must need to fill Frequency field</errorMessage>
+</ValidationRule>
