@@ -17,6 +17,8 @@ private class PriceBookEntryAPITest {
        // System.assertEquals('Product 1', priceBkWrap[0].pd.Name);
         //System.assertEquals(9.99, priceBkWrap[0].pben.UnitPrice);
         System.assertEquals('Product 2', priceBkWrap[1].pd.Name);
+        System.assertEquals(2, priceBkWrap.size());
+        System.assertEquals(2, priceBkWrap.size());
         //System.assertEquals(19.99, priceBkWrap[1].pben.UnitPrice);
     }
 }
